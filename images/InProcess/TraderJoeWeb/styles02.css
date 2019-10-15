@@ -1,0 +1,826 @@
+ /* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*My code starts from here*/
+* {
+    text-decoration: none;
+}
+body {margin: auto; padding: 0; overflow-x: hidden;
+    background-color: #f3f3f3; /*#354e05*/
+}
+header p {
+    background-image: url(IMGS/PC/BG_Banner.jpg);
+    background-color:#3E3E3E;
+    height: 40px;
+    text-indent: -99999px;
+    background-size: 3000px;
+    background-repeat: no-repeat;
+}
+header h1 {
+    background-color:#3E3E3E;
+    width: 100%;
+    height: 2px;
+    display: inline-block;
+    border-top: 2px solid #f3f3f3;
+    text-indent: -99999px;
+}
+body header section {
+    background-color: #f3f3f3;
+    max-width: 700px;
+    position: relative;
+    left: 600px;
+}
+header .header-brand {
+    background-image: url(IMGS/FoodLtdLogo.png);
+    background-size: 140px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -99999px;
+    position: relative;
+    top: 50px;
+    margin: 0;
+    height: 80px;
+    width: 400px;
+}
+.form-box {
+    position: relative;
+    top: -20px;
+    margin-left: 250px;
+    height: 100px;
+    width: 300px;
+}
+input [type=text] {
+    padding: 7px;
+    border: none;
+    font-size: 12px;
+}
+button {
+    float: right;
+    background: #CE2C2C;
+    color: #f3f3f3;
+    border-radius: 0;
+    cursor: pointer;
+    float: left;
+    margin-left: 300px;
+    margin-top: -22px;
+    width: 150px;
+    height: 22px;
+    padding: 5px;
+    border: none;
+    font-size: 12px;
+}
+/*main menu*/
+nav {
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-align: center;
+    position: absolute;
+    left: 600px;
+    top: 180px;
+}
+nav ul li {
+    background-color: #f3f3f3;
+    float: left;
+    width: 175px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li a {
+    text-decoration: none;
+    color:#1C1C1C;
+    font-size: 22px;
+    display: block;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+nav ul li ul li {
+    display: none;
+}
+nav ul li ul li a { cursor: pointer;
+    font-size: 10px;
+}
+nav ul li:hover ul li {
+    display: block;
+}
+/*main*/
+main {
+    margin: auto;
+    padding: 0;
+    background-color: #f3f3f3;
+    max-width: 700px;
+    height: 70vh;
+}
+/*greyline*/
+main .g01 {
+    background-color: #8E8E8E;
+    width: 706px;
+    height: 5px;
+    text-indent: -99999px;
+    margin-bottom: 2px;
+    position: absolute;
+    top: 240px;
+    left: 598px;
+}
+main .bn {
+    background-image: url(/IMGS/PC/Flyer_Banner.png);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -99999px;
+    margin: 0;
+    padding: 0;
+    width: 700px;
+    height: 48px;
+    position: relative;
+    top: 09px;
+    left: -1px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+main .title {
+    font-size: 30px;
+    font-family: Comic Sans MS;
+    font-weight: bolder;
+    position: relative;
+    top: -30px;
+    left: 250px; 
+}
+main .g02 {
+    background-color: #8E8E8E;
+    width: 706px;
+    height: 2px;
+    text-indent: -99999px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 296px;
+    left: 598px;
+}
+main .g03 {
+    background-color: #8E8E8E;
+    width: 706px;
+    height: 2px;
+    text-indent: -99999px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 300px;
+    left: 598px;
+}
+/*page content*/
+main .PG-content ul {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+main .sub-title ul li {
+    display: inline;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    font-size: 14px;
+    color: #1C1C1C;
+}
+main .side-menu ul li {
+    margin-bottom: 15px;
+    height: 20px;
+    width: 150px;
+    position: relative;
+    top: 60px;
+    left: 10px;
+    font-size: 20px;
+    color: #CE2C2C;
+    text-decoration: none;
+}
+main .side-menu ul li:hover {
+    text-decoration: underline;
+}
+main .side-menu ul li ul {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-align: left;
+    position: absolute;
+    left: -2px;
+    top: -25px;
+    color: #1C1C1C;
+}
+main .side-menu ul li ul li {
+    margin-bottom: 2px;
+    display: none;
+}
+main .side-menu ul li:hover ul li {
+    display: block;
+}
+main .content-pic {
+    background-image: url(/IMGS/PC/AugustFlyer.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    border: 40px solid #8E8E8E;
+    text-indent: -99999px;
+    padding: 10px 10px;
+    margin: 0;
+    width: 270px;
+    height: 352px;
+    position: relative;
+    top: -10px;
+    left: 220px;
+}
+main .subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #CE2C2C;
+    margin: 0;
+    padding: 5px;
+    position: relative;
+    top: -40px;
+    left: 210px;
+}
+main .img01 {
+    background-image: url(IMGS/PC/AS_Bakery01.jpg);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    border: 10px solid #8E8E8E;
+    text-indent: -99999px;
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -20px;
+    left: 200px;
+}
+main .img02 {
+    background-image: url(IMGS/PC/AS_Bakery02.jpg);
+    background-size: 160px;
+    background-repeat: no-repeat;
+    border: 10px solid #8E8E8E;
+    text-indent: -99999px;
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -140px;
+    left: 350px;
+}
+main .img03 {
+    background-image: url(IMGS/PC/AS_Bakery03.jpg);
+    background-size: 160px;
+    background-repeat: no-repeat;
+    border: 10px solid #8E8E8E;
+    text-indent: -99999px;
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -260px;
+    left: 500px;
+}
+main .img04 {
+    background-image: url(IMGS/PC/AS_Bakery04.jpg);
+    background-size: 160px;
+    background-repeat: no-repeat;
+    border: 10px solid #8E8E8E;
+    text-indent: -99999px;
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -240px;
+    left: 200px;
+}
+main .img05 {
+    background-image: url(IMGS/PC/AS_Bakery05.jpg);
+    background-size: 160px;
+    background-repeat: no-repeat;
+    border: 10px solid #8E8E8E;
+    text-indent: -99999px;
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -360px;
+    left: 350px;
+}
+main .img06 {
+    background-image: url(IMGS/PC/AS_Fruits01.jpg);
+    background-size: 160px;
+    background-repeat: no-repeat;
+    border: 10px solid #8E8E8E;
+    text-indent: -99999px;
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -20px;
+    left: 200px;
+}
+main .img07 {
+    background-image: url(IMGS/PC/AS_Fruits02.jpg);
+    background-size: 160px;
+    background-repeat: no-repeat;
+    border: 10px solid #8E8E8E;
+    text-indent: -99999px;
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -140px;
+    left: 350px;
+}
+main .img08 {
+    background-image: url(IMGS/PC/AS_Fruits03.jpg);
+    background-size: 160px;
+    background-repeat: no-repeat;
+    border: 10px solid #8E8E8E;
+    text-indent: -99999px;
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -260px;
+    left: 500px;
+}
+main .img09 {
+    background-image: url(IMGS/PC/AS_Fruits04.jpg);
+    background-size: 160px;
+    background-repeat: no-repeat;
+    border: 10px solid #8E8E8E;
+    text-indent: -99999px;
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -240px;
+    left: 200px;
+}
+main .img10 {
+    background-image: url(IMGS/PC/AS_Fruits05.jpg);
+    background-size: 180px;
+    background-repeat: no-repeat;
+    border: 10px solid #8E8E8E;
+    text-indent: -99999px;
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -360px;
+    left: 350px;
+}
+main .img11 {
+    background-image: url(IMGS/PC/AS_Fruits06.jpg);
+    background-size: 160px;
+    background-repeat: no-repeat;
+    border: 10px solid #8E8E8E;
+    text-indent: -99999px;
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -480px;
+    left: 500px;
+}
+main .img12 {
+    background-image: url(IMGS/PC/AS_Snack01.jpg);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    border: 10px solid #8E8E8E;
+    text-indent: -99999px;
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -20px;
+    left: 200px;
+}
+main .img13 {
+    background-image: url(IMGS/PC/AS_Snack02.jpg);
+    background-size: 140px;
+    background-repeat: no-repeat;
+    border: 10px solid #8E8E8E;
+    text-indent: -99999px;
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -140px;
+    left: 350px;
+}
+main .img14 {
+    background-image: url(IMGS/PC/AS_Snack03.jpg);
+    background-size: 160px;
+    background-repeat: no-repeat;
+    border: 10px solid #8E8E8E;
+    text-indent: -99999px;
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -260px;
+    left: 500px;
+}
+main .img15 {
+    background-image: url(IMGS/PC/AS_Snack04.jpg);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    border: 10px solid #8E8E8E;
+    text-indent: -99999px;
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -240px;
+    left: 200px;
+}
+main .img16 {
+    background-image: url(IMGS/PC/AS_frozen01.jpg);
+    background-size: 160px;
+    background-repeat: no-repeat;
+    border: 10px solid #8E8E8E;
+    text-indent: -99999px;
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -20px;
+    left: 200px;
+}
+main .img17 {
+    background-image: url(IMGS/PC/AS_frozen02.jpg);
+    background-size: 160px;
+    background-repeat: no-repeat;
+    border: 10px solid #8E8E8E;
+    text-indent: -99999px;
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -140px;
+    left: 350px;
+}
+main .img18 {
+    background-image: url(IMGS/PC/AS_frozen03.jpg);
+    background-size: 160px;
+    background-repeat: no-repeat;
+    border: 10px solid #8E8E8E;
+    text-indent: -99999px;
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -260px;
+    left: 500px;
+}
+main .img19 {
+    background-image: url(IMGS/PC/AS_frozen04.jpg);
+    background-size: 160px;
+    background-repeat: no-repeat;
+    border: 10px solid #8E8E8E;
+    text-indent: -99999px;
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -240px;
+    left: 200px;
+}
+main .img20 {
+    background-image: url(IMGS/PC/AS_frozen05.jpg);
+    background-size: 180px;
+    background-repeat: no-repeat;
+    border: 10px solid #8E8E8E;
+    text-indent: -99999px;
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -360px;
+    left: 350px;
+}
+main .img21 {
+    background-image: url(IMGS/PC/AS_frozen06.jpg);
+    background-size: 160px;
+    background-repeat: no-repeat;
+    border: 10px solid #8E8E8E;
+    text-indent: -99999px;
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -480px;
+    left: 500px;
+}
+main .img22 {
+    background-image: url(IMGS/PC/AS_frozen07.jpg);
+    background-size: 180px;
+    background-repeat: no-repeat;
+    border: 10px solid #8E8E8E;
+    text-indent: -99999px;
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -450px;
+    left: 200px;
+}
+main .img23 {
+    background-image: url(IMGS/PC/AS_frozen08.jpg);
+    background-size: 160px;
+    background-repeat: no-repeat;
+    border: 10px solid #8E8E8E;
+    text-indent: -99999px;
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -570px;
+    left: 350px;
+}
+main .sampleimg {
+    background-image: url(/IMGS/PC/AS_Bakery01.jpg);
+    background-size: 450px;
+    background-repeat: no-repeat;
+    border: 30px solid #8E8E8E;
+    text-indent: -99999px;
+    padding: 10px 10px;
+    margin: 0;
+    width: 270px;
+    height: 270px;
+    position: relative;
+    top: -10px;
+    left: 220px;
+}
+main .description {
+    padding: 0;
+    margin: 20px;
+    width: 350px;
+    height: 120px;
+    position: relative;
+    top: -10px;
+    left: 200px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+/*footer*/
+footer {margin: auto; padding: 0;
+    background-image: url(IMGS/PC/BG_Banner.jpg);
+    background-size: 3000px;
+    background-repeat: no-repeat;
+    clear: both;
+    width: 100%;
+    height: 27vh;
+}
+footer .footerline {
+    border-bottom: 3px solid #8E8E8E;
+    margin: 0;
+    padding: 0;
+    text-indent: -9999px;
+    position: relative;
+    top: -22px;
+}
+footer ul {
+    margin: 0;
+    position: relative;
+    top: 10px;
+    left: 610px;
+}
+footer ul li {
+    color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    list-style: none;
+    line-height: 1.8;
+}
+footer .Q {
+    position: relative;
+    margin-right: 18px;
+}
+footer .DL {
+    position: relative;
+    margin-right: 18px;
+}
+footer .LS {
+    position: relative;
+    margin-right: 18px;
+}
+footer .fill-info {
+    position: relative;
+}
+footer input[type=text]{
+    position: relative;
+    top: 10px;
+    background-color: #f3f3f3;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 350px;
+    height: 20px;
+}
+footer div .zipcode-bar {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+footer input[type=zipcode]{
+    box-sizing: border-box;
+    width: 100px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+    left: 340px;
+}
+footer div button {
+    width: 140px;
+    height: 20px;
+    position: relative;
+    top: 10px;
+    left: 250px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+footer .copyright {
+    color: #f3f3f3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    top: -15px;
+    left: 700px;
+}
+footer .copyright h2 {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #f3f3f3;
+    border-radius: 50%;
+    margin: 0px;
+    padding: 1px;
+    font-size: 15px;
+    text-align: center;  
+}
+footer .copyright h3 {
+    position: relative;
+    top: -15px;
+    left: 30px;
+    font-size: 10px;
+}
